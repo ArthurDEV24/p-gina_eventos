@@ -47,10 +47,9 @@ body{
 }
 
 .taça{
-    background: url("Assets/taça.jpg");
+    background: url("Assets/taça.png");
     background-size: cover;
     justify-content: end;
-    
     height: 800px;
     width: 100%;
 }
