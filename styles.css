@@ -80,7 +80,8 @@ body{
     border-radius: 18px;
     padding: 7px;
     background-color: white;
-    border: 0px;
+    border: 0px; 
+    /* termine */
 
 }
 .btn1:hover {
