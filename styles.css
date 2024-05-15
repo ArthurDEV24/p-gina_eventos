@@ -58,7 +58,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-left: 6%;
+    margin-right: 6%;
     font-size: 2rem;
     color: white;
     opacity: 1;
@@ -82,6 +82,17 @@ body{
     background-color: white;
     border: 0px;
 
+}
+.btn1:hover {
+    background-color: rgb(10, 25, 26);
+    color: rgb(221, 192, 0);
+    font-weight: 600;
+    transition: font-weight, backg 0.3s;
+    
+}
+.btn1:active {
+    scale: 0.9;
+    transition-duration: 0.1s;
 }
 
 .backg {
@@ -291,7 +302,14 @@ body{
     font-size: 35px;
     border-color: rgba(255, 255, 255, 0.007);
 }
-
+#enviar:hover {
+    background-color: #898989a8;
+    transition-duration: 0.3s;
+}
+#enviar:active {
+    scale: 0.9;
+    transition-duration: 0.1s;
+}
 #insta {
     width: 250px;
     height: auto;
