@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Kite+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+.klee-one {
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .kiwi-maru {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5f5f5;
+}
+
+.t1 {
+    background-color: #1C1C1C;
+    padding: 10px;
+    align-items: center;
+    justify-content: left;
+    margin: 0px;
+}
+
+#titulo_header{
+    color: white;
+    font-size: 32px;
+}
+
+.taça{
+    background-color: #1C1C1C;
+}
+
+.taça{
+    background: url("Assets/taça.jpg");
+    background-size: cover;
+    justify-content: end;
+    
+    height: 800px;
+    width: 100%;
+}
+
+.texto1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 6%;
+    font-size: 2rem;
+    color: white;
+    opacity: 1;
+}
+
+.texto1 h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+.texto1 h3{
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+.btn1{
+    font-size: 1.5rem;
+    border-radius: 18px;
+    padding: 7px;
+    background-color: white;
+    border: 0px;
+
+}
+
+.backg {
+    background-color: #FFF4F4;
+}
+
+.kiwi-maru-regular {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.khula-regular {
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#mulher_img{
+    width: 612px;
+    height: 496px;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.p-2 {
+    margin-left: 150px;
+    font-family: "Khula", serif;
+    font-size: 29px;
+    text-align: left;
+}
+
+#h1-tx {
+    margin-left: 150px;
+    font-size: 64px;
+    text-align: left;   
+}
+
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.clientes{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    
+
+
+}
+
+.clientes h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+.clientes h2{
+    font-size: 2rem;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.homem {
+    width: 100%;
+    justify-content: space-between;
+
+}
+#imagem{
+    width: 750px;
+    justify-content: left;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: top;
+    width: 100%;
+    font-weight: 100;
+    margin-top: 10%;
+}
+
+.titulo h1{
+    font-size: 3.5rem;
+    margin: 0;
+    width: 100%;
+    font-weight: 200;
+
+
+}
+
+.titulo h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+}
+
+#contate-nos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 950px;
+    gap: 50px;
+    color: white;
+    background-color: #252525;
+    text-align: center;
+    font-family: "Khula";
+    margin: 0;
+    padding-top: 10px;
+    
+}
+.h1vei{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 102.76px;
+    margin: 0;
+    margin-block: 0;
+    
+}
+.h3vei{
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+    margin-block: 0;
+}
+#secoes_contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 60px;
+}
+
+
+#midia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Khula";
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 83.49px;
+    text-align: center;
+    font-size: 40px;
+
+    width: 700px;
+    height: 663px;
+    padding: 47px, 10px, 47px, 10px;
+    
+}
+#inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 40px;
+    width: 750px;
+    height: 600px;
+    background: #1F1F1F;
+    border-radius: 12px;
+
+}
+#inputs label{
+    font-family: "Khula";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44.96px;
+    text-align: left;
+
+    width: 500px;
+    height: 45px;
+}
+#inputs input{
+    padding: 10px;
+
+    width: 670px;
+    height: 30px;
+    border-radius: 8px;
+}
+#inputs button {
+    color: white;
+    width: 276px;
+    height: 56px;
+    border-radius: 9px;
+    padding: 5px 10px; 
+    background-color: #898989;
+    font-family: "Kite One";
+    font-size: var(--Font-size);
+    font-weight: 400;
+    line-height: 46.24px;
+    text-align: center;
+    font-size: 35px;
+    border-color: rgba(255, 255, 255, 0.007);
+}
+
+#insta {
+    width: 250px;
+    height: auto;
+}
+
+.a {
+    flex-direction: row;
+    text-align: start;
+    padding-left: 30px;
+}
